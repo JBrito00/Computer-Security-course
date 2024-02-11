@@ -1,0 +1,8 @@
+1. Geração chave simetrica(ks)
+2. Geração de iv
+3. AAD -> Header 
+4. Obtenção de chave publica(kpub)
+5. Cifra de ks com kpub -> "RSA/ECB/OAEPPadding" (cipher.MODE_WRAP  /n ...Wrap(Key) /n ... /n Cypher.MODE_UNWRAP /n key = ...unwrap())
+6. Cifra de MSG com ks -> "AES/GCM/NoPadding" -> updateADD()
+7. Codificação BASE64 -> CLASSE Base64 (getUrlEncoder() /n withoutPAdding() /n ... /n getUrlDecoder())
+8. Concatenação
