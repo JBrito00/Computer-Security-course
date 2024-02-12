@@ -14,6 +14,9 @@ $ tail -c +55 trab1.bmp > body
 Next, I used OpenSSL to cipher the body file using the AES and DES algorithms and the ECB and CBC operation modes.
 
 Afterwards, I use the following command for each body file created to concatenate the header with body and analyze the image.
+```bash
+$ cat header body > new.bmp
+```
 
 ## Results
 
