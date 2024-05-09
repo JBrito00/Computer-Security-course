@@ -1,6 +1,6 @@
 # Computer Security Course Assignments
 
-The assignments in this repo were practical implementations of the studies in Computer Security.
+The assignments in this repo were practical implementations of the studies in Computer Security during a semester in my undergraduate studies in Computer Science and Computer Engineering.
 
 ## Overview
 
@@ -97,4 +97,4 @@ Now we can run our http-server-base.js and go to www.secure-server.edu to connec
 
 ## Acknowledgments
 
-These assignments were developed within the scope of Computer Security course in a group during my undergraduate studies in Computer Science and Computer Engineering. Some parts of the code were adapted from existing examples provided by the professors. I would like to express my gratitude to ISEL for providing a comprehensive course, and to the professors for their guidance and expertise.
+These assignments were developed within the scope of Computer Security course in a group during my undergraduate studies in Computer Science and Computer Engineering at ISEL. Some parts of the code were adapted from existing examples provided by the professors. These assignments were both developed during practical classes and outside of regular school hours. I would like to express my gratitude to the professors for their guidance during the semester.
